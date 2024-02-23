@@ -20,7 +20,7 @@ For this analysis, I've collected individual player statisitcs for the last 6 co
 ## Data Preparation:
 The initial dataset had roughly 16,500 rows of player-seasons (each row comprised the stats of one season for one player). I first removed goalkeepers, as goalscoring is not a part of their game. Then, I instituted a games played cutoff of 30% of the player's possible minutes, as well as a shots cutoff of 0.395 per game. In doing so, I am limiting outliers -- playing very few games or barely taking any shots could weird to statistical anomalies. The cutoffs are arbitrary, but were chosen based on what fbref uses as cutoffs for statistics ranking. I am happy to be deferential to their rules.
 
-After limiting rows, there ends up being 5,145 qualifying seasons from 2,164 players. Of these, 886 are primarily defenders, 1,812 are primarily midfielders, and 1,555 are primarily forwards.
+After limiting rows, there ends up being 5,145 qualifying seasons from 2,164 players. Of these, 1091 are primarily defenders, 2,182 are primarily midfielders, and 1,872 are primarily forwards.
 
 
 
